@@ -5,7 +5,7 @@ import Topbarber from '../components/Topbarber'
 import Banner from '../components/Banner'
 import BarberCount from '../components/barbercount'
 import Usercomments from '../components/Usercomments'
-import Mobile from "../components/mobile.jsx"; // Example
+import Mobile from "../components/Mobile"
 
 const Home = () => {
   return (
