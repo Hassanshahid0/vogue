@@ -13,6 +13,13 @@ const port = process.env.PORT || 4000
 connectDB()
 connectCloudinary()
 
+const corsOptions = {
+  origin: "process.env.PORT",
+  methods: ["GET,HEAD,PUT,PATCH,POST,DELETE"],
+  allowedHeaders: ["Content-Type", "Authorization"],
+};
+
+
 // middlewares
 app.use(express.json())
 app.use(cors())
