@@ -5,7 +5,7 @@ import Topbarber from '../components/Topbarber'
 import Banner from '../components/Banner'
 import BarberCount from '../components/barbercount'
 import Usercomments from '../components/Usercomments'
-import Mobile from '../components/mobile'
+import Mobile from "../components/mobile.jsx"; // Example
 
 const Home = () => {
   return (
@@ -22,5 +22,4 @@ const Home = () => {
     </div>
   )
 }
-
 export default Home
